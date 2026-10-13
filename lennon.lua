@@ -579,7 +579,7 @@ local AssetViewport = require(ReplicatedStorage:WaitForChild("Client"):WaitForCh
 
 local tbl3 = {
 	REFRESH_INTERVAL = 0.5,
-	SPAM_INTERVAL = 100,
+	SPAM_INTERVAL = 0.01,
 	PROTECT_INTERVAL = 0.05,
 	SPAWN_OFFSET = 3,
 	BEAM_WIDTH = 0.12,
@@ -587,12 +587,12 @@ local tbl3 = {
 	DROPDOWN_ROWS = 4,
 	ROW_H = 28,
 	ROW_GAP = 3,
-	TWEEN_SPEED = 250,
-	WAYPOINT = Vector3.new(510.092, 70.767, -364.085),
+	TWEEN_SPEED = 0,
+	WAYPOINT = Vector3.new(210.092, 40.767, -194.085),
 	USE_GROUND_DETECTION = true,
 	GROUND_CLEARANCE = 4,
-	RAYCAST_UP = 90,
-	RAYCAST_DOWN = 250,
+	RAYCAST_UP = 100,
+	RAYCAST_DOWN = 300,
 	START_MARKER_DEPTH_PADDING = 0,
 	START_MARKER_BACK_PADDING = 16,
 	START_MARKER_TEXT_BACK_OFFSET = 9,
@@ -602,7 +602,7 @@ local tbl3 = {
 
 local tbl4 = {
 	enabled = false,
-	mode = "AUTO",
+	mode = "TELEGUIADO",
 	running = true,
 	bestEgg = nil,
 	selectedEgg = nil,
@@ -667,7 +667,7 @@ end
 -- ============================================
 
 local v = nil
-local humanoid = false
+local humanoid = nil
 local humanoidRootPart = nil
 workspace:WaitForChild("World"):WaitForChild("Areas"):WaitForChild("StartArea")
 
@@ -681,7 +681,7 @@ local animation = nil
 local breakJointsOnDeath = nil
 local v6 = nil
 local connection = nil
-local walkSpeed = true
+local walkSpeed = nil
 
 tbl2.restoreWalkSpeed = function()
 	local character = localPlayer.Character
@@ -689,7 +689,7 @@ tbl2.restoreWalkSpeed = function()
 
 	if humanoid2 and walkSpeed then
 		humanoid2.WalkSpeed = walkSpeed
-		walkSpeed = true
+		walkSpeed = nil
 	end
 end
 
@@ -906,7 +906,7 @@ tbl2.tweenToTarget = function(arg, arg2)
 			tbl2.unequipTreadmill()
 		end
 
-		local n = tonumber(tbl3.TWEEN_SPEED) or 250
+		local n = tonumber(tbl3.TWEEN_SPEED) or 500
 		tbl2.stopCurrentTween(false)
 
 		if character then
@@ -914,7 +914,7 @@ tbl2.tweenToTarget = function(arg, arg2)
 				walkSpeed = character.WalkSpeed
 			end
 
-			character.WalkSpeed = 0
+			character.WalkSpeed = 50
 		end
 
 		local function fn(arg3, arg4)
@@ -1067,7 +1067,7 @@ tbl2.applyZombieDesync = function(parent)
 	if v2 and v2.Parent == parent then
 		return v2
 	end
-	walkSpeed = true
+	walkSpeed = nil
 	local humanoid2 = parent:WaitForChild("Humanoid", 5)
 	if not humanoid2 then
 		return nil
@@ -2124,7 +2124,7 @@ local textLabel8 = Instance.new("TextLabel")
 textLabel8.Size = UDim2.fromOffset(88, 20)
 textLabel8.Position = UDim2.fromOffset(12, 8)
 textLabel8.BackgroundTransparency = 1
-textLabel8.Text = "AUTO"
+textLabel8.Text = "TELEGUIADO"
 textLabel8.TextColor3 = Color3.fromRGB(230, 240, 233)
 textLabel8.TextSize = 11
 textLabel8.Font = Enum.Font.GothamBold
@@ -2321,7 +2321,7 @@ textLabel10.Name = "RarityFilterTitle"
 textLabel10.Size = UDim2.new(1, 0, 0, 18)
 textLabel10.Position = UDim2.fromOffset(0, n6)
 textLabel10.BackgroundTransparency = 1
-textLabel10.Text = "RARITY FILTER - TP + AUTO"
+textLabel10.Text = "RARITY FILTER - TP + TELEGUIADO"
 textLabel10.TextColor3 = Color3.fromRGB(120, 255, 160)
 textLabel10.TextSize = 8
 textLabel10.Font = Enum.Font.GothamBold
@@ -2831,7 +2831,7 @@ for _, v16 in ipairs(tbl5) do
 		tbl2.updateRarityChecks()
 		tbl2.refreshEggs(true)
 
-		if tbl4.enabled and tbl4.mode == "AUTO" and not tbl4.carrying and not tbl4.carryLocked and not tbl4.isProtecting and not tbl4.isDelivering then
+		if tbl4.enabled and tbl4.mode == "TELEGUIADO" and not tbl4.carrying and not tbl4.carryLocked and not tbl4.isProtecting and not tbl4.isDelivering then
 			tbl2.finishMove()
 			tbl4.isStealing = false
 		end
@@ -3127,7 +3127,7 @@ tbl2.completeGuidedCycle = function()
 	end
 	tbl4.guidedCycleActive = false
 	tbl4.lastRefresh = 0
-	if tbl4.mode ~= "AUTO" then
+	if tbl4.mode ~= "TELEGUIADO" then
 		return
 	end
 
@@ -3180,7 +3180,7 @@ tbl2.moveToBestEggTP = function()
 		return false
 	end
 
-	if tbl4.mode == "AUTO" then
+	if tbl4.mode == "TELEGUIADO" then
 		tbl4.guidedCycleActive = true
 
 		if tbl4.enabled then
@@ -3341,7 +3341,7 @@ tbl2.newTGRuntime = tbl2.newTGRuntime or {
 	restoreDesync = nil,
 }
 
-tbl2.stopNewAUTO = function()
+tbl2.stopNewTeleguiado = function()
 	local newTGRuntime = tbl2.newTGRuntime
 	local cleanup = newTGRuntime.cleanup
 	newTGRuntime.cleanup = nil
@@ -3359,7 +3359,7 @@ tbl2.stopNewAUTO = function()
 	newTGRuntime.running = false
 end
 
-tbl2.startNewAUTO = function()
+tbl2.startNewTeleguiado = function()
 	local newTGRuntime = tbl2.newTGRuntime
 	if newTGRuntime.running then
 		return false
@@ -3379,7 +3379,7 @@ tbl2.startNewAUTO = function()
 		return false
 	end
 
-	tbl4.mode = "AUTO"
+	tbl4.mode = "TELEGUIADO"
 	tbl4.waitingForDay = false
 	tbl4.targetEgg = nil
 	tbl4.isMoving = false
@@ -4320,7 +4320,7 @@ tbl2.startNewAUTO = function()
 
 			-- FIX: settle() كان غير معرّف → استبدل بـ fn28()
 			local function fn21(arg, arg2)
-				local n14 = tonumber(arg2) or 250
+				local n14 = tonumber(arg2) or 500
 				humanoidRootPart2.AssemblyLinearVelocity = Vector3.zero
 				humanoidRootPart2.AssemblyAngularVelocity = Vector3.zero
 				local vector = Vector3.new(arg.X - humanoidRootPart2.Position.X, 0, arg.Z - humanoidRootPart2.Position.Z)
@@ -4671,7 +4671,7 @@ tbl2.startNewAUTO = function()
 				if typeof(arg) ~= "Vector3" or not humanoidRootPart2 or not humanoidRootPart2.Parent then
 					return false
 				end
-				local n14 = tonumber(arg2) or 250
+				local n14 = tonumber(arg2) or 500
 				fn4()
 				humanoidRootPart2.AssemblyLinearVelocity = Vector3.zero
 				humanoidRootPart2.AssemblyAngularVelocity = Vector3.zero
@@ -4937,7 +4937,7 @@ tbl2.startNewAUTO = function()
 
 					task.delay(0.16, function()
 						if v16.enabled and v16.loopEnabled then
-							tbl2.startNewAUTO()
+							tbl2.startNewTeleguiado()
 						end
 					end)
 				else
@@ -5009,7 +5009,7 @@ tbl2.startNewAUTO = function()
 			tbl4.runLoop = false
 			tbl4.waitingForDay = false
 			tbl2.updateToggle()
-			warn("[NEW AUTO ERROR]", result)
+			warn("[NEW TELEGUIADO ERROR]", result)
 		end
 	end)
 
@@ -5051,8 +5051,8 @@ task.spawn(function()
 end)
 
 tbl2.updateModeUI = function()
-	tbl4.mode = "AUTO"
-	textLabel8.Text = "AUTO"
+	tbl4.mode = "TELEGUIADO"
+	textLabel8.Text = "TELEGUIADO"
 
 	if tbl4.enabled and tbl4.waitingForDay then
 		textLabel9.Text = tbl2.isDaytime() and "WAITING FOR GATE" or "WAITING FOR DAY"
@@ -5067,7 +5067,7 @@ fn2 = function()
 	if not tbl4.enabled then
 		return false
 	end
-	tbl4.mode = "AUTO"
+	tbl4.mode = "TELEGUIADO"
 
 	if not tbl2.canLeaveForSteal() then
 		tbl4.waitingForDay = true
@@ -5079,7 +5079,7 @@ fn2 = function()
 	tbl2.updateToggle()
 	tbl2.refreshEggs(true)
 	tbl2.updateBestDisplay()
-	return tbl2.startNewAUTO()
+	return tbl2.startNewTeleguiado()
 end
 
 tbl2.loopButton.MouseButton1Click:Connect(function()
@@ -5105,15 +5105,15 @@ textButton3.MouseButton1Click:Connect(function()
 		tbl4.waitingForDay = false
 		tbl4.runLoop = false
 		tbl4.guidedCycleActive = false
-		tbl2.stopNewAUTO()
+		tbl2.stopNewTeleguiado()
 		tbl2.cancelEverything()
 		tbl2.updateToggle()
 		return
 	end
 
-	tbl2.stopNewAUTO()
+	tbl2.stopNewTeleguiado()
 	tbl2.cancelEverything()
-	tbl4.mode = "AUTO"
+	tbl4.mode = "TELEGUIADO"
 	tbl4.runLoop = tbl4.loopEnabled
 	tbl4.enabled = true
 	tbl4.waitingForDay = not tbl2.canLeaveForSteal()
@@ -5121,7 +5121,7 @@ textButton3.MouseButton1Click:Connect(function()
 	tbl2.refreshEggs(true)
 	tbl2.updateBestDisplay()
 	if tbl4.waitingForDay then
-		tbl2.showToast(tbl2.isDaytime() and "Waiting for gate" or "AUTO armed: waiting for day")
+		tbl2.showToast(tbl2.isDaytime() and "Waiting for gate" or "Teleguiado armed: waiting for day")
 		return
 	end
 	fn2()
@@ -5223,7 +5223,7 @@ if localPlayer.Character then
 end
 
 localPlayer.CharacterAdded:Connect(function(character)
-	tbl2.stopNewAUTO()
+	tbl2.stopNewTeleguiado()
 	tbl2.cancelEverything()
 	tbl2.setupCharacter(character)
 
