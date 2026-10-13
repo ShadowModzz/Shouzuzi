@@ -2,13 +2,13 @@
 local SL_Ctx = {}
 
 
--- Ref_buffer_writeu32
+Ref_buffer_writeu32
 SL_Ctx.Ref_buffer_writeu32 = buffer.writeu32
 
--- Ref_buffer_writei16
+Ref_buffer_writei16
 SL_Ctx.Ref_buffer_writei16 = buffer.writei16
 
--- Proto_8951
+Proto_8951
 SL_Ctx.Proto_8951 = function(y, F, F)
 	return
 	function(F, f) local f = F [1]
@@ -105,7 +105,7 @@ end
 end
 end
 
--- ServerHop
+ServerHop
 SL_Ctx.ServerHop = function(y, F, F)
 	return
 	function(F) local f = F [1]
@@ -1704,7 +1704,7 @@ end
 end
 end
 
--- Proto_5464
+Proto_5464
 SL_Ctx.Proto_5464 = function(y, y, y, y)
 	return
 	function(y, F, F) local F = y [1]
@@ -1726,7 +1726,7 @@ end
 end
 end
 
--- StateSave
+StateSave
 SL_Ctx.StateSave = function(y, y, y)
 	return
 	function(y, F) local F = y [1]
@@ -1743,7 +1743,7 @@ end
 end
 end
 
--- Optimizer
+Optimizer
 SL_Ctx.Optimizer = function(y, F, F, F, F)
 	return
 	function(F) local f = F [1]
@@ -2044,7 +2044,7 @@ end
 end
 end
 
--- TweenTravel
+TweenTravel
 SL_Ctx.TweenTravel = function(y, F, F, F)
 	return
 	function(F, f) local f = F [1]
@@ -3051,7 +3051,7 @@ end
 end
 end
 
--- Proto_2832
+Proto_2832
 SL_Ctx.Proto_2832 = function(y, F, F)
 	return
 	function(F, f) local f = F [1]
@@ -3093,10 +3093,10 @@ end
 end
 end
 
--- Ref_buffer_readu32
+Ref_buffer_readu32
 SL_Ctx.Ref_buffer_readu32 = buffer.readu32
 
--- StateSave_2
+StateSave_2
 SL_Ctx.StateSave_2 = function(y, F, F)
 	return
 	function(F, f, f) local f = F [1]
@@ -3123,7 +3123,7 @@ end
 end
 end
 
--- Proto_1311
+Proto_1311
 SL_Ctx.Proto_1311 = function(y, y, y)
 	return
 	function(y) local F = y [1]
@@ -3149,7 +3149,7 @@ end
 end
 end
 
--- Proto_7668
+Proto_7668
 SL_Ctx.Proto_7668 = function(y, y)
 	return
 	function(y) local F = y [1]
@@ -3161,21 +3161,21 @@ end
 end
 end
 
--- Lowkey Consider Join SL | Source Leak
--- https://discord.gg/R6vnkNQNbP
+Lowkey Consider Join SL | Source Leak
+https://discord.gg/R6vnkNQNbP
 
--- Proto_G
+Proto_G
 SL_Ctx.Proto_G = {}
 
--- Proto_V
+Proto_V
 SL_Ctx.Proto_V = {}
 
--- Proto_m4
+Proto_m4
 SL_Ctx.Proto_m4 = function(y, y, F, f) local l = f - 128 + y * 128
 	return 30, 2 + F, l
 end
 
--- Proto_4359
+Proto_4359
 SL_Ctx.Proto_4359 = function(y, F, f, l, w, T, v, J, t, h, d, M, M, n, Z) local Z, G, p, b, c, q, W, L, _, U, s, Y, I, z, V = y [77], y [27], y [54], y [8], y [102], y [73], y [71], y [5], y [58], y [60], y [123], y [40], y [72], y [10], y.X4
 	local
 	function r(D, H, H) local H, O, i, A, x, X, g, S, E, j, k, B, P, Q, C = Z, G, p, b, c, q, W, L, _, U, s, Y, I, z, V
@@ -3926,16 +3926,16 @@ end
 	return r
 end
 
--- Ref_Rect_new
+Ref_Rect_new
 SL_Ctx.Ref_Rect_new = Rect.new
 
--- Ref_table_insert
+Ref_table_insert
 SL_Ctx.Ref_table_insert = table.insert
 
--- Ref_next
+Ref_next
 SL_Ctx.Ref_next = next
 
--- Proto_12360
+Proto_12360
 SL_Ctx.Proto_12360 = function(y, F, f, l, w, T, T, v, J, t, h, d, M, n, Z) local Z, G, p, b, c, q, W, L, _, U, s, Y, I, z, V, r, D, H = y [77], y [27], y [102], y [8], y [71], y [82], y [40], y [72], y [10], y [117], y [43], y.B4, y [73], y [5], y [58], y [60], y [123], y [25]
 	return
 	function(O, i) local i, A, x, X, g, S, E, j, k, B, P, Q, C, u, a, o, m, e = Z, G, p, b, c, q, W, L, _, U, s, Y, I, z, V, r, D, H
@@ -9406,18 +9406,18 @@ end
 end
 end
 
--- Ref_tonumber
+Ref_tonumber
 SL_Ctx.Ref_tonumber = tonumber
 
--- Proto_h4
+Proto_h4
 SL_Ctx.Proto_h4 = function(y, F, f, ...) local l = y [117](...)
 	y [72](l, 1, l.n, f + 1, F)
 end
 
--- Ref_assert
+Ref_assert
 SL_Ctx.Ref_assert = assert
 
--- Proto_125
+Proto_125
 SL_Ctx.Proto_125 = function(y, y, y)
 	return
 	function(y) local F = y [1]
@@ -9431,7 +9431,7 @@ end
 
 
 
--- Proto_9197
+Proto_9197
 SL_Ctx.Proto_9197 = function(y, y, y, y, y)
 	return
 	function(y) local F = y [1]
@@ -9458,7 +9458,7 @@ end
 end
 end
 
--- Notify
+Notify
 SL_Ctx.Notify = function(y, F)
 	return
 	function(F, f, f) local f = F [1]
@@ -9972,10 +9972,10 @@ end
 end
 end
 
--- Ref_buffer_writei8
+Ref_buffer_writei8
 SL_Ctx.Ref_buffer_writei8 = buffer.writei8
 
--- Proto_10962
+Proto_10962
 SL_Ctx.Proto_10962 = function(y, y, y, y)
 	return
 	function(y, F, F) local F = y [1]
@@ -9997,13 +9997,13 @@ end
 end
 end
 
--- Ref_buffer_writebits
+Ref_buffer_writebits
 SL_Ctx.Ref_buffer_writebits = buffer.writebits
 
--- Ref_coroutine_running
+Ref_coroutine_running
 SL_Ctx.Ref_coroutine_running = coroutine.running
 
--- EggPicker_Lab
+EggPicker_Lab
 SL_Ctx.EggPicker_Lab = function(y, F, F)
 	return
 	function(F, f) local f = F [1]
@@ -10154,7 +10154,7 @@ end
 end
 end
 
--- TweenTravel_2
+TweenTravel_2
 SL_Ctx.TweenTravel_2 = function(y, F, F, F)
 	return
 	function(F) local f = F [1]
@@ -11242,7 +11242,7 @@ end
 end
 end
 
--- Proto_9296
+Proto_9296
 SL_Ctx.Proto_9296 = function(y, F, F)
 	return
 	function(F, f, f) local f = F [1]
@@ -11267,7 +11267,7 @@ end
 end
 end
 
--- RC4_Keystream
+RC4_Keystream
 SL_Ctx.RC4_Keystream = function(y, F, f, l, w, T, v, J, t, h, d, M, n) if n <= 19 then
 	if n <= 18 then
 	local Z = y [5](T, 2 + d)
@@ -11287,7 +11287,7 @@ elseif n <= 20 then
 	end
 end
 
--- Protections
+Protections
 SL_Ctx.Protections = function(y, F, F, F, F)
 	return
 	function(F, f, f) local f = F [1]
@@ -11405,7 +11405,7 @@ end
 end
 end
 
--- Proto_55
+Proto_55
 SL_Ctx.Proto_55 = function(y, y, y)
 	return
 	function(y) local F = y [1]
@@ -11417,9 +11417,9 @@ end
 end
 end
 
--- This Luraph V15.1 Is Deobfuscated By SL | Source Leak; https://discord.gg/R6vnkNQNbP
+This Luraph V15.1 Is Deobfuscated By SL | Source Leak; https://discord.gg/R6vnkNQNbP
 
--- ConfigIO
+ConfigIO
 SL_Ctx.ConfigIO = function(y, F)
 	return
 	function(F, f, f) local f = F [1]
@@ -11537,13 +11537,13 @@ end
 end
 end
 
--- Proto_d
+Proto_d
 SL_Ctx.Proto_d = buffer.create(16)
 
--- Ref_table_concat
+Ref_table_concat
 SL_Ctx.Ref_table_concat = table.concat
 
--- TweenTravel_3
+TweenTravel_3
 SL_Ctx.TweenTravel_3 = function(y, F, F)
 	return
 	function(F, f) local f = F [1]
@@ -11758,10 +11758,10 @@ end
 end
 end
 
--- Proto_n
+Proto_n
 SL_Ctx.Proto_n = {569, 571778627, 4208720816, 4256189459, 416567617, 3117446972, 2743676162, 349703428, 717853150}
 
--- Notify_2
+Notify_2
 SL_Ctx.Notify_2 = function(y, y, y, y)
 	return
 	function(y) local F = y [1]
@@ -11781,10 +11781,10 @@ end
 end
 end
 
--- Ref_table_clear
+Ref_table_clear
 SL_Ctx.Ref_table_clear = table.clear
 
--- Notify_3
+Notify_3
 SL_Ctx.Notify_3 = function(y, y, y, y, y)
 	return
 	function(y, F, F) local F = y [1]
@@ -11798,10 +11798,10 @@ end
 end
 end
 
--- Ref_error
+Ref_error
 SL_Ctx.Ref_error = error
 
--- Proto_18
+Proto_18
 SL_Ctx.Proto_18 = function(y, F, F)
 	return
 	function(F, f, f) local f = F [1]
@@ -11858,10 +11858,10 @@ end
 end
 end
 
--- Proto_12
+Proto_12
 SL_Ctx.Proto_12 = 3.001671752E9
 
--- Proto_t4
+Proto_t4
 SL_Ctx.Proto_t4 = function(y, F, f) local l = y [102]
 	F, f = l(F, 4294967295), l(f, 4294967295)
 	local w, T = l(F, 65535), y [8]
@@ -11879,18 +11879,18 @@ until true
 	return w
 end
 
--- > Lowkey Consider Join SL | Source Leak lowkey SL <
--- https://discord.gg/R6vnkNQNbP
+> Lowkey Consider Join SL | Source Leak lowkey SL <
+https://discord.gg/R6vnkNQNbP
 
--- Proto_c
+Proto_c
 SL_Ctx.Proto_c = function(y, ...)
 	return(...) [...]
 end
 
--- Ref_buffer_readi16
+Ref_buffer_readi16
 SL_Ctx.Ref_buffer_readi16 = buffer.readi16
 
--- Proto_113
+Proto_113
 SL_Ctx.Proto_113 = function(y, y, y)
 	return
 	function(y, F) local F = y [1]
@@ -11902,7 +11902,7 @@ end
 end
 end
 
--- Exec_Env
+Exec_Env
 SL_Ctx.Exec_Env = function(y, F, F, F)
 	return
 	function(F) local f = F [1]
@@ -11928,7 +11928,7 @@ end
 end
 end
 
--- Proto_46
+Proto_46
 SL_Ctx.Proto_46 = function(y, y, y, y)
 	return
 	function(y, F) local F = y [1]
@@ -11940,7 +11940,7 @@ end
 end
 end
 
--- InstantPickup
+InstantPickup
 SL_Ctx.InstantPickup = function(y, F, F)
 	return
 	function(F, f) local f = F [1]
@@ -18713,10 +18713,10 @@ end
 end
 end
 
--- Proto_111
+Proto_111
 SL_Ctx.Proto_111 = (0)
 
--- Proto_8374
+Proto_8374
 SL_Ctx.Proto_8374 = function(y, y, y)
 	return
 	function(y) local F = y [1]
@@ -18736,7 +18736,7 @@ end
 end
 end
 
--- ESP_Eggs
+ESP_Eggs
 SL_Ctx.ESP_Eggs = function(y, F, F)
 	return
 	function(F, f) local f = F [1]
@@ -19884,7 +19884,7 @@ end
 end
 end
 
--- TweenTravel_4
+TweenTravel_4
 SL_Ctx.TweenTravel_4 = function(y, F, F)
 	return
 	function(F) local f = F [1]
@@ -20595,7 +20595,7 @@ end
 end
 end
 
--- BuildUI_Canvas
+BuildUI_Canvas
 SL_Ctx.BuildUI_Canvas = function(y, F, F, F)
 	return
 	function(F, f) local f = F [1]
@@ -20868,7 +20868,7 @@ end
 end
 end
 
--- Proto_91
+Proto_91
 SL_Ctx.Proto_91 = function(y, y, y)
 	return
 	function(y, F) local F = y [1]
@@ -20879,12 +20879,12 @@ end
 end
 end
 
--- Lowkey Consider Join SL | Source Leak; This Luraph V15.1 Is Deobfuscated By SL | Source Leak; https://discord.gg/R6vnkNQNbP
+Lowkey Consider Join SL | Source Leak; This Luraph V15.1 Is Deobfuscated By SL | Source Leak; https://discord.gg/R6vnkNQNbP
 
--- Ref_string_unpack
+Ref_string_unpack
 SL_Ctx.Ref_string_unpack = string.unpack
 
--- Proto_s4
+Proto_s4
 SL_Ctx.Proto_s4 = function(y, y) y %= 4294967296
 	if y ~= y then
 	return 0
@@ -20892,7 +20892,7 @@ end
 	return y - y % 1
 end
 
--- Proto_l
+Proto_l
 SL_Ctx.Proto_l = function(y, F, f, l, w, T, v, J, t, h, d) if l <= 148 then
 	if l <= 147 then
 	local M = y [5](v, f + 1)
@@ -20911,7 +20911,7 @@ elseif l <= 149 then
 	end
 end
 
--- Proto_U
+Proto_U
 SL_Ctx.Proto_U = function(y, F, f, l, w, T, v, J, t) if T <= 26 then
 	if T <= 25 then
 	local h = y [5](v, J + 1)
@@ -20932,10 +20932,10 @@ elseif T <= 27 then
 	end
 end
 
--- Ref_rawget
+Ref_rawget
 SL_Ctx.Ref_rawget = rawget
 
--- Proto_4016
+Proto_4016
 SL_Ctx.Proto_4016 = function(y, F, F, F)
 	return
 	function(F) local f = F [1]
@@ -20955,7 +20955,7 @@ end
 end
 end
 
--- Proto_1
+Proto_1
 SL_Ctx.Proto_1 = function(y, y, y, y, y)
 	return
 	function(y, F) local F = y [1]
@@ -20973,7 +20973,7 @@ end
 end
 end
 
--- Notify_4
+Notify_4
 SL_Ctx.Notify_4 = function(y, F, F, F)
 	return
 	function(F) local f = F [1]
@@ -21160,7 +21160,7 @@ end
 end
 end
 
--- EggPicker_Lab_2
+EggPicker_Lab_2
 SL_Ctx.EggPicker_Lab_2 = function(y, F, F)
 	return
 	function(F, f) local f = F [1]
@@ -21179,7 +21179,7 @@ end
 end
 end
 
--- Proto_f4
+Proto_f4
 SL_Ctx.Proto_f4 = function(y, F, f, l, w, T, v, J) if l <= 15 then
 	local t = y [5](J, 3 + v)
 	local y, J, h, d, M = (w - 128) * 2097152, 128 * (T - 128), f - 128, 16384 * (t % 128), t % 128
@@ -21204,7 +21204,7 @@ else
 	end
 end
 
--- Paint
+Paint
 SL_Ctx.Paint = function(y, F, F, F)
 	return
 	function(F, f) local f = F [1]
@@ -21813,14 +21813,14 @@ end
 end
 end
 
--- Proto_g
+Proto_g
 SL_Ctx.Proto_g = function(y)
 	return true, 67, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil
 end
 
--- Lowkey Consider Join SL | Source Leak
+Lowkey Consider Join SL | Source Leak
 
--- Proto_h
+Proto_h
 SL_Ctx.Proto_h = function(y, F, f, l, w, T, v, J, t) if f <= 87 then
 	if f <= 86 then
 	local h = (T - 128) * 128
@@ -21840,12 +21840,12 @@ elseif f <= 88 then
 	end
 end
 
--- Proto_M4
+Proto_M4
 SL_Ctx.Proto_M4 = function(y, F, f) local l = y [5](F, 2 + f)
 	return not(128 <= l) and 0 or 4, l
 end
 
--- Proto_x
+Proto_x
 SL_Ctx.Proto_x = function(y, F, f, l, w, T, v, J) if l <= 42 then
 	local t = y [5](w, J)
 	return not(128 <= t) and 16 or 99, t, v, T
@@ -21857,7 +21857,7 @@ elseif l <= 43 then
 	end
 end
 
--- Proto_90
+Proto_90
 SL_Ctx.Proto_90 = function(y, y)
 	return
 	function(y, F) local F = y [1]
@@ -21869,7 +21869,7 @@ end
 end
 end
 
--- Noclip
+Noclip
 SL_Ctx.Noclip = function(y, F)
 	return
 	function(F, f, f, f) local f = F [1]
@@ -22216,7 +22216,7 @@ end
 end
 end
 
--- TweenTravel_5
+TweenTravel_5
 SL_Ctx.TweenTravel_5 = function(y, F, F, F, F)
 	return
 	function(F) local f = F [1]
@@ -24094,7 +24094,7 @@ end
 end
 end
 
--- TweenTravel_6
+TweenTravel_6
 SL_Ctx.TweenTravel_6 = function(y, F)
 	return
 	function(F, f, f) local f = F [1]
@@ -24680,10 +24680,10 @@ end
 end
 end
 
--- Ref_string_format
+Ref_string_format
 SL_Ctx.Ref_string_format = string.format
 
--- Proto_N
+Proto_N
 SL_Ctx.Proto_N = function(y, F, f, l, w, T, v, J, t, h, d) if d <= 11 then
 	if d <= 10 then
 	local M = y [5](v, 2 + h)
@@ -24705,7 +24705,7 @@ elseif d <= 12 then
 	end
 end
 
--- TweenTravel_7
+TweenTravel_7
 SL_Ctx.TweenTravel_7 = function(y, F, F)
 	return
 	function(F, f) local f = F [1]
@@ -25496,7 +25496,7 @@ end
 end
 end
 
--- Proto_w4
+Proto_w4
 SL_Ctx.Proto_w4 = function(y, F, f, l, w, T, v, J) if T <= 37 then
 	local t = y [5](F, 1 + w)
 	return t < 128 and 23 or 5, F, w, t
@@ -25512,12 +25512,12 @@ elseif T <= 38 then
 	end
 end
 
--- Ref_buffer_readf64
+Ref_buffer_readf64
 SL_Ctx.Ref_buffer_readf64 = buffer.readf64
 
--- This Luraph V15.1 Is Deobfuscated By SL | Source Leak -- https://discord.gg/R6vnkNQNbP
+This Luraph V15.1 Is Deobfuscated By SL | Source Leak https://discord.gg/R6vnkNQNbP
 
--- Proto_g4
+Proto_g4
 SL_Ctx.Proto_g4 = function(y, F, f, l, w, T, v, J, t, h, d) if t <= 15 then
 	local M, n = f [4] [J], f [7]
 	local f = 1 + M
@@ -25531,7 +25531,7 @@ elseif t <= 16 then
 	end
 end
 
--- Notify_5
+Notify_5
 SL_Ctx.Notify_5 = function(y, F, F, F)
 	return
 	function(F, f) local f = F [1]
@@ -25701,7 +25701,7 @@ end
 end
 end
 
--- Notify_6
+Notify_6
 SL_Ctx.Notify_6 = function(y, F, F, F)
 	return
 	function(F, f, f) local f = F [1]
@@ -26176,7 +26176,7 @@ end
 end
 end
 
--- Proto_3363
+Proto_3363
 SL_Ctx.Proto_3363 = function(y, F, F, F, F)
 	return
 	function(F, f, f) local f = F [1]
@@ -26212,16 +26212,16 @@ end
 end
 end
 
--- Ref_getmetatable
+Ref_getmetatable
 SL_Ctx.Ref_getmetatable = getmetatable
 
--- Ref_coroutine_status
+Ref_coroutine_status
 SL_Ctx.Ref_coroutine_status = coroutine.status
 
--- Ref_table_pack
+Ref_table_pack
 SL_Ctx.Ref_table_pack = table.pack
 
--- FpsCap
+FpsCap
 SL_Ctx.FpsCap = function(y, F)
 	return
 	function(F, f) local f = F [1]
@@ -26251,7 +26251,7 @@ end
 end
 end
 
--- Proto_u
+Proto_u
 SL_Ctx.Proto_u = function(y, F, f, l, w, T, v, J, t, h) if F <= 116 then
 	local d = y [5](l, 1 + t)
 	return not(128 <= d) and 126 or 113, t, T, d, h
@@ -26265,13 +26265,13 @@ elseif F <= 117 then
 	end
 end
 
--- Ref_bit32_rrotate
+Ref_bit32_rrotate
 SL_Ctx.Ref_bit32_rrotate = bit32.rrotate
 
--- Ref_bit32_bxor
+Ref_bit32_bxor
 SL_Ctx.Ref_bit32_bxor = bit32.bxor
 
--- Proto_B4
+Proto_B4
 SL_Ctx.Proto_B4 = function(y, F, f, l) local w = y [97]
 	w()
 	for y, T in F, f, l do
@@ -26280,7 +26280,7 @@ end
 end
 
 
--- Proto_2572
+Proto_2572
 SL_Ctx.Proto_2572 = function(y, F)
 	return
 	function(F, F)
@@ -26321,13 +26321,13 @@ end
 end
 end
 
--- Ref_coroutine_create
+Ref_coroutine_create
 SL_Ctx.Ref_coroutine_create = coroutine.create
 
--- Ref_tostring
+Ref_tostring
 SL_Ctx.Ref_tostring = tostring
 
--- Proto_4479
+Proto_4479
 SL_Ctx.Proto_4479 = function(y, y, y, y)
 	return
 	function(y) local F = y [1]
@@ -26347,7 +26347,7 @@ end
 end
 end
 
--- Exec_Env_2
+Exec_Env_2
 SL_Ctx.Exec_Env_2 = function(y, F, F)
 	return
 	function(F, f, f, f) local f = F [1]
@@ -26490,7 +26490,7 @@ end
 end
 end
 
--- Proto_6479
+Proto_6479
 SL_Ctx.Proto_6479 = function(y, y, y)
 	return
 	function()
@@ -26504,7 +26504,7 @@ end
 end
 end
 
--- StateSave_3
+StateSave_3
 SL_Ctx.StateSave_3 = function(y, F, F)
 	return
 	function(F, f) local f = F [1]
@@ -26743,18 +26743,18 @@ end
 end
 end
 
--- Proto_C4
+Proto_C4
 SL_Ctx.Proto_C4 = function(y)
 	return true, 0, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil
 end
 
--- Ref_buffer_create
+Ref_buffer_create
 SL_Ctx.Ref_buffer_create = buffer.create
 
--- Ref_type
+Ref_type
 SL_Ctx.Ref_type = type
 
--- Proto_7471
+Proto_7471
 SL_Ctx.Proto_7471 = function(y, y, y, y)
 	return
 	function(y, F) local F = y [1]
@@ -26774,7 +26774,7 @@ end
 end
 end
 
--- Proto_8101
+Proto_8101
 SL_Ctx.Proto_8101 = function(y, y, y, y, y)
 	return
 	function(y, F, F, F) local F = y [1]
@@ -26809,10 +26809,10 @@ end
 end
 end
 
--- Lowkey Consider Join SL | Source Leak
--- https://discord.gg/R6vnkNQNbP
+Lowkey Consider Join SL | Source Leak
+https://discord.gg/R6vnkNQNbP
 
--- EggPredictor
+EggPredictor
 SL_Ctx.EggPredictor = function(y, F, F, F)
 	return
 	function(F, f) local f = F [1]
@@ -28165,7 +28165,7 @@ end
 end
 end
 
--- RC4_Keystream_2
+RC4_Keystream_2
 SL_Ctx.RC4_Keystream_2 = function(y, F, f, l, w, T, v, J, t, h, d) if w <= 10 then
 	if w <= 9 then
 	local M = (d * T + f) % 256
@@ -28182,7 +28182,7 @@ elseif w <= 11 then
 	end
 end
 
--- Paint_2
+Paint_2
 SL_Ctx.Paint_2 = function(y, F)
 	return
 	function(F, f) local f = F [1]
@@ -28821,10 +28821,10 @@ end
 end
 end
 
--- Ref_unpack
+Ref_unpack
 SL_Ctx.Ref_unpack = unpack
 
--- Proto_68
+Proto_68
 SL_Ctx.Proto_68 = function(y, y, y)
 	return
 	function(y, F, F, F) local F = y [1]
@@ -28836,10 +28836,10 @@ end
 end
 end
 
--- Proto_74
+Proto_74
 SL_Ctx.Proto_74 = 1.370805552E9
 
--- Proto_w
+Proto_w
 SL_Ctx.Proto_w = function(y, F, f, l, w, T, v, J, t, h) if v <= 65 then
 	local v, d, M, n = y [5](l, 3 + w), (f - 128) * 2097152, (T - 128) * 128, h - 128
 	return 29, d + (16384 * (v % 128) + (v - v % 128) * 2097152 + (M + n)), w + 4, t
@@ -28850,10 +28850,10 @@ else
 	end
 end
 
--- Ref_rawset
+Ref_rawset
 SL_Ctx.Ref_rawset = rawset
 
--- Proto_126
+Proto_126
 SL_Ctx.Proto_126 = function(y, F, F, F, F)
 	return
 	function(F, f, f) local f = F [1]
@@ -28986,7 +28986,7 @@ end
 end
 end
 
--- Proto_374
+Proto_374
 SL_Ctx.Proto_374 = function(y, F, F)
 	return
 	function(F, f) local f = F [1]
@@ -29182,17 +29182,17 @@ end
 end
 end
 
--- Ref_coroutine_isyieldable
+Ref_coroutine_isyieldable
 SL_Ctx.Ref_coroutine_isyieldable = coroutine.isyieldable
 
--- Ref_vector_create
+Ref_vector_create
 SL_Ctx.Ref_vector_create = vector.create
 
 
--- Ref_pairs
+Ref_pairs
 SL_Ctx.Ref_pairs = pairs
 
--- Proto_12666
+Proto_12666
 SL_Ctx.Proto_12666 = function(y, F, F, F)
 	return
 	function(F) local f = F [1]
@@ -29309,7 +29309,7 @@ end
 end
 end
 
--- Proto_15845
+Proto_15845
 SL_Ctx.Proto_15845 = function(y, y)
 	return
 	function(y, y)
@@ -29326,7 +29326,7 @@ end
 end
 end
 
--- Proto_k
+Proto_k
 SL_Ctx.Proto_k = function(y, y, F, f, l, w, T) if y <= 35 then
 	local y, v, J = l [5], l [2], l [4]
 	local t, h = y + v, v <= 0
@@ -29345,7 +29345,7 @@ else
 	end
 end
 
--- TweenTravel_8
+TweenTravel_8
 SL_Ctx.TweenTravel_8 = function(y, F)
 	return
 	function(F, f) local f = F [1]
@@ -30525,7 +30525,7 @@ end
 end
 end
 
--- Proto_p4
+Proto_p4
 SL_Ctx.Proto_p4 = function(y, F, f, l, w, T, v) if w <= 12 then
 	local J = y [5](v, F)
 	return not(J < 128) and 28 or 39, f, J, l
@@ -30538,7 +30538,7 @@ elseif w <= 13 then
 	end
 end
 
--- Proto__
+Proto__
 SL_Ctx.Proto__ = function(y, F, f, l, w, T, v, J, t, h, d) if F <= 16 then
 	if F <= 15 then
 	local M = y [5](t, f)
@@ -30561,10 +30561,10 @@ elseif F <= 17 then
 	end
 end
 
--- Ref_buffer_fill
+Ref_buffer_fill
 SL_Ctx.Ref_buffer_fill = buffer.fill
 
--- ConfigIO_2
+ConfigIO_2
 SL_Ctx.ConfigIO_2 = function(y, F, F, F, F)
 	return
 	function(F)
@@ -30721,7 +30721,7 @@ end
 end
 end
 
--- ServerHop_2
+ServerHop_2
 SL_Ctx.ServerHop_2 = function(y, F, F, F)
 	return
 	function(F, f) local f = F [1]
@@ -32066,7 +32066,7 @@ end
 end
 end
 
--- FpsOverlay
+FpsOverlay
 SL_Ctx.FpsOverlay = function(y, F, F, F, F)
 	return
 	function(F, f) local f = F [1]
@@ -32377,15 +32377,15 @@ end
 end
 end
 
--- Ref_bit32_rshift
+Ref_bit32_rshift
 SL_Ctx.Ref_bit32_rshift = bit32.rshift
 
--- This Luraph V15.1 Is Deobfuscated By SL | Source Leak; https://discord.gg/R6vnkNQNbP
+This Luraph V15.1 Is Deobfuscated By SL | Source Leak; https://discord.gg/R6vnkNQNbP
 
--- Ref_bit32_countrz
+Ref_bit32_countrz
 SL_Ctx.Ref_bit32_countrz = bit32.countrz
 
--- Proto_A
+Proto_A
 SL_Ctx.Proto_A = function(y, F, f, l, w, T, v, J, t, h, d, M) if f <= 112 then
 	if f <= 111 then
 	T [0] = M
@@ -32406,7 +32406,7 @@ elseif f <= 113 then
 	end
 end
 
--- Proto_j4
+Proto_j4
 SL_Ctx.Proto_j4 = function(y, F, f, l, w, T, v) if v <= 0 then
 	local v = 128 * (f - 128)
 	local f = F - 128 + (T * 16384 + v)
@@ -32417,7 +32417,7 @@ else
 	end
 end
 
--- Proto__4
+Proto__4
 SL_Ctx.Proto__4 = function(y, F, f, l, w, T, v, J, t, h, d, M) if F <= 32 then
 	if F <= 31 then
 	local n = y [5](w, t)
@@ -32444,7 +32444,7 @@ elseif F <= 33 then
 end
 end
 
--- Proto_a4
+Proto_a4
 SL_Ctx.Proto_a4 = function(y, F, f, l, w, T, v, J, t, h, d) if J <= 1 then
 	if J <= 0 then
 	local M = 1 + 0
@@ -32471,10 +32471,10 @@ elseif J <= 2 then
 	end
 end
 
--- Ref_UDim2_new
+Ref_UDim2_new
 SL_Ctx.Ref_UDim2_new = UDim2.new
 
--- AutoStealEggs
+AutoStealEggs
 SL_Ctx.AutoStealEggs = function(y, F, F, F)
 	return
 	function(F, f) local f = F [1]
@@ -32785,7 +32785,7 @@ end
 end
 end
 
--- Paint_3
+Paint_3
 SL_Ctx.Paint_3 = function(y, F, F, F)
 	return
 	function(F) local f = F [1]
@@ -33030,10 +33030,10 @@ end
 end
 end
 
--- Ref_coroutine_resume
+Ref_coroutine_resume
 SL_Ctx.Ref_coroutine_resume = coroutine.resume
 
--- Proto_I4
+Proto_I4
 SL_Ctx.Proto_I4 = function(y, F, f, l, w, T, v, J, t, h, d, M) if J <= 22 then
 	if J <= 21 then
 	local n = w [3]
@@ -33060,7 +33060,7 @@ elseif J <= 23 then
 	end
 end
 
--- Proto_15711
+Proto_15711
 SL_Ctx.Proto_15711 = function(y, F, F, F)
 	return
 	function(F, F)
@@ -33079,13 +33079,13 @@ end
 end
 end
 
--- Proto_105
+Proto_105
 SL_Ctx.Proto_105 = 3.701486812E9
 
--- > Lowkey Consider Join SL | Source Leak lowkey SL <
--- https://discord.gg/R6vnkNQNbP
+> Lowkey Consider Join SL | Source Leak lowkey SL <
+https://discord.gg/R6vnkNQNbP
 
--- Proto_16350
+Proto_16350
 SL_Ctx.Proto_16350 = function(y, y, y)
 	return
 	function(y, F, F) local F = y [1]
@@ -33131,7 +33131,7 @@ end
 end
 end
 
--- Proto_J
+Proto_J
 SL_Ctx.Proto_J = function(y, F, f, l, w, T, v, J, t, h, d, M, n) if d <= 143 then
 	if d <= 142 then
 	local Z = h - 128
@@ -33161,10 +33161,10 @@ else
 	end
 end
 
--- Ref_string_find
+Ref_string_find
 SL_Ctx.Ref_string_find = string.find
 
--- Proto_75
+Proto_75
 SL_Ctx.Proto_75 = function(y, y, y)
 	return
 	function(y, F) local F = y [1]
@@ -33176,7 +33176,7 @@ end
 end
 end
 
--- ConfigIO_3
+ConfigIO_3
 SL_Ctx.ConfigIO_3 = function(y, F, F)
 	return
 	function(F, f, f) local f = F [1]
@@ -33256,7 +33256,7 @@ end
 end
 end
 
--- AutoStealEggs_2
+AutoStealEggs_2
 SL_Ctx.AutoStealEggs_2 = function(y, F, F)
 	return
 	function(F, f, f, f) local f = F [1]
@@ -33302,7 +33302,7 @@ end
 end
 end
 
--- TweenTravel_9
+TweenTravel_9
 SL_Ctx.TweenTravel_9 = function(y, F, F, F)
 	return
 	function(F, f) local f = F [1]
@@ -34013,7 +34013,7 @@ end
 end
 end
 
--- Proto_V4
+Proto_V4
 SL_Ctx.Proto_V4 = function(y, F, f, l, w, T, v, J) if w <= 13 then
 	T [J] = F
 	local w, t, h = y:Q4(T, l)
@@ -34033,7 +34033,7 @@ else
 end
 end
 
--- Proto_W
+Proto_W
 SL_Ctx.Proto_W = function(y, F, f, l, w, T, v, J, t, h, d, M) if f <= 1 then
 	if f <= 0 then
 	return 2
@@ -34060,7 +34060,7 @@ else
 	end
 end
 
--- EggPicker_Lab_3
+EggPicker_Lab_3
 SL_Ctx.EggPicker_Lab_3 = function(y, y)
 	return
 	function(y) local F = y [1]
@@ -34082,10 +34082,10 @@ end
 end
 end
 
--- Ref_table_move
+Ref_table_move
 SL_Ctx.Ref_table_move = table.move
 
--- Proto_Y
+Proto_Y
 SL_Ctx.Proto_Y = function(y, F, f, l, w, T, v, J, t, h, d, M, n, Z) if h <= 107 then
 	if h <= 106 then
 	local G = T - 68808
@@ -34108,9 +34108,9 @@ elseif h <= 108 then
 	end
 end
 
--- Lowkey Consider Join SL | Source Leak; This Luraph V15.1 Is Deobfuscated By SL | Source Leak; https://discord.gg/R6vnkNQNbP
+Lowkey Consider Join SL | Source Leak; This Luraph V15.1 Is Deobfuscated By SL | Source Leak; https://discord.gg/R6vnkNQNbP
 
--- ESP_Eggs_2
+ESP_Eggs_2
 SL_Ctx.ESP_Eggs_2 = function(y, y, y, y)
 	return
 	function(y, F, F, F) local F = y [1]
@@ -34140,10 +34140,10 @@ end
 end
 end
 
--- Ref_UDim_new
+Ref_UDim_new
 SL_Ctx.Ref_UDim_new = UDim.new
 
--- Proto_K
+Proto_K
 SL_Ctx.Proto_K = function(y, F, f, l, w, T) if f <= 132 then
 	local f = y [5](T, F + 2)
 	return f < 128 and 20 or 9, f, w
@@ -34153,7 +34153,7 @@ else
 	end
 end
 
--- Proto_L4
+Proto_L4
 SL_Ctx.Proto_L4 = function(y, F, f, l, w, T, v) if l <= 7 then
 	local J = y [5](F, w + 2)
 	return not(J < 128) and 15 or 17, w, f, J
@@ -34168,7 +34168,7 @@ elseif l <= 8 then
 	end
 end
 
--- Proto_v
+Proto_v
 SL_Ctx.Proto_v = function(y, F, f, l, w, T, v, J, t) if F <= 50 then
 	local F = (t - 128) * 128 + (v - 128 + T * 16384)
 	return 19, J, 3 + f, F
@@ -34179,7 +34179,7 @@ else
 	end
 end
 
--- InstantPickup_2
+InstantPickup_2
 SL_Ctx.InstantPickup_2 = function(y, F)
 	return
 	function(F, f) local f = F [1]
@@ -35428,10 +35428,10 @@ end
 end
 end
 
--- Ref_buffer_fromstring
+Ref_buffer_fromstring
 SL_Ctx.Ref_buffer_fromstring = buffer.fromstring
 
--- Proto_108
+Proto_108
 SL_Ctx.Proto_108 = function(y, y, y, y, y)
 	return
 	function(y, F, F) local F = y [1]
@@ -35450,7 +35450,7 @@ end
 end
 end
 
--- Proto_53
+Proto_53
 SL_Ctx.Proto_53 = function(y, y, y)
 	return
 	function(y, F) local F = y [1]
@@ -35462,7 +35462,7 @@ end
 end
 end
 
--- Webhook_Discord
+Webhook_Discord
 SL_Ctx.Webhook_Discord = function(y, F)
 	return
 	function(F, f) local f = F [1]
@@ -35582,7 +35582,7 @@ end
 end
 end
 
--- EggPicker_Lab_4
+EggPicker_Lab_4
 SL_Ctx.EggPicker_Lab_4 = function(y, y, y)
 	return
 	function(y, F, F) local F = y [1]
@@ -35594,7 +35594,7 @@ end
 end
 end
 
--- Proto_E
+Proto_E
 SL_Ctx.Proto_E = function(y, F, f, l, w, T, v, J) if f <= 7 then
 	local t = y [5](l, J + 1)
 	return notnot(128 <= t) and 93 or 108, J, v, t, T
@@ -35610,9 +35610,9 @@ elseif f <= 8 then
 	end
 end
 
--- Lowkey Consider Join SL | Source Leak
+Lowkey Consider Join SL | Source Leak
 
--- AutoStealEggs_3
+AutoStealEggs_3
 SL_Ctx.AutoStealEggs_3 = function(y, y, y, y)
 	return
 	function(y) local F = y [1]
@@ -35624,7 +35624,7 @@ end
 end
 end
 
--- Proto_H
+Proto_H
 SL_Ctx.Proto_H = function(y, F, f, l, w, T, v, J, t) if v <= 52 then
 	local h, d, M = y [77](w), y [77](w), 1 + 0
 	local n = 1 - M
@@ -35638,16 +35638,16 @@ elseif v <= 53 then
 	end
 end
 
--- Ref_bit32_bnot
+Ref_bit32_bnot
 SL_Ctx.Ref_bit32_bnot = bit32.bnot
 
--- Ref_buffer_len
+Ref_buffer_len
 SL_Ctx.Ref_buffer_len = buffer.len
 
--- Ref_pcall
+Ref_pcall
 SL_Ctx.Ref_pcall = pcall
 
--- ServerHop_3
+ServerHop_3
 SL_Ctx.ServerHop_3 = function(y, F)
 	return
 	function(F, f, f) local f = F [1]
@@ -36044,7 +36044,7 @@ end
 end
 end
 
--- Proto_I
+Proto_I
 SL_Ctx.Proto_I = function(y, F, f, l, w, T, v, J, t, h, d, M, n) if T <= 46 then
 	if T <= 45 then
 	return 89, J - 128 + 128 * v, 2 + M, M, d, n, l
@@ -36074,10 +36074,10 @@ elseif T <= 47 then
 	end
 end
 
--- Ref_bit32_bor
+Ref_bit32_bor
 SL_Ctx.Ref_bit32_bor = bit32.bor
 
--- Proto_D
+Proto_D
 SL_Ctx.Proto_D = function(y, F, f, l, w, T, v) if l <= 67 then
 	local J = y [5](v, 0)
 	return J < 128 and 5 or 81, nil, J, T, w
@@ -36090,10 +36090,10 @@ elseif l <= 68 then
 	end
 end
 
--- Ref_string_char
+Ref_string_char
 SL_Ctx.Ref_string_char = string.char
 
--- Proto_L
+Proto_L
 SL_Ctx.Proto_L = function(y, F, f, l, w, T, v, J, t, h, d, M, n, Z, G, p, b, c, q) if F <= 31 then
 	if F <= 30 then
 	return 154, n, 1 + t, q, w, Z
@@ -36119,7 +36119,7 @@ elseif F <= 32 then
 	end
 end
 
--- InstantPickup_3
+InstantPickup_3
 SL_Ctx.InstantPickup_3 = function(y, F, F, F)
 	return
 	function(F, f, f, f) local f = F [1]
@@ -37940,9 +37940,9 @@ end
 end
 end
 
--- This Luraph V15.1 Is Deobfuscated By SL | Source Leak -- https://discord.gg/R6vnkNQNbP
+This Luraph V15.1 Is Deobfuscated By SL | Source Leak https://discord.gg/R6vnkNQNbP
 
--- Proto_22
+Proto_22
 SL_Ctx.Proto_22 = function(y, y, y)
 	return
 	function(y, F, F) local F = y [1]
@@ -37954,16 +37954,16 @@ end
 end
 end
 
--- Proto_n4
+Proto_n4
 SL_Ctx.Proto_n4 = {}
 
--- Ref_buffer_readstring
+Ref_buffer_readstring
 SL_Ctx.Ref_buffer_readstring = buffer.readstring
 
--- Proto_33
+Proto_33
 SL_Ctx.Proto_33 = 2.614032002E9
 
--- Proto_1117
+Proto_1117
 SL_Ctx.Proto_1117 = function(y, F, F)
 	return
 	function(F)
@@ -37989,10 +37989,10 @@ end
 end
 end
 
--- Ref_buffer_writei32
+Ref_buffer_writei32
 SL_Ctx.Ref_buffer_writei32 = buffer.writei32
 
--- Proto_10947
+Proto_10947
 SL_Ctx.Proto_10947 = function(y, y, y)
 	return
 	function(y) local F = y [1]
@@ -38014,7 +38014,7 @@ end
 end
 end
 
--- Proto_942
+Proto_942
 SL_Ctx.Proto_942 = function(y, F, F)
 	return
 	function(F, f, f) local f = F [1]
@@ -38077,7 +38077,7 @@ end
 end
 end
 
--- Proto_4811
+Proto_4811
 SL_Ctx.Proto_4811 = function(y, y, y, y)
 	return
 	function(y, F, F) local F = y [1]
@@ -38088,10 +38088,10 @@ end
 end
 end
 
--- Ref_buffer_copy
+Ref_buffer_copy
 SL_Ctx.Ref_buffer_copy = buffer.copy
 
--- Proto_13313
+Proto_13313
 SL_Ctx.Proto_13313 = function(y, F)
 	return
 	function(F) local f = F [1]
@@ -38489,7 +38489,7 @@ end
 end
 end
 
--- Proto_4096
+Proto_4096
 SL_Ctx.Proto_4096 = function(y, F, F, F, F)
 	return
 	function(F, f) local f = F [1]
@@ -38533,7 +38533,7 @@ end
 
 
 
--- Proto_15844
+Proto_15844
 SL_Ctx.Proto_15844 = function(y, y)
 	return
 	function(y) local F = y [1]
@@ -38544,10 +38544,10 @@ end
 end
 end
 
--- Ref_string_gmatch
+Ref_string_gmatch
 SL_Ctx.Ref_string_gmatch = string.gmatch
 
--- InstantPickup_4
+InstantPickup_4
 SL_Ctx.InstantPickup_4 = function(y, F, F, F)
 	return
 	function(F, f) local f = F [1]
@@ -38758,20 +38758,20 @@ end
 end
 end
 
--- Ref_buffer_writef64
+Ref_buffer_writef64
 SL_Ctx.Ref_buffer_writef64 = buffer.writef64
 
--- Proto_j
+Proto_j
 SL_Ctx.Proto_j = function(y, ...)(...) [...] = nil
 end
 
--- Ref_Vector2_new
+Ref_Vector2_new
 SL_Ctx.Ref_Vector2_new = Vector2.new
 
--- Ref_ipairs
+Ref_ipairs
 SL_Ctx.Ref_ipairs = ipairs
 
--- Proto_56
+Proto_56
 SL_Ctx.Proto_56 = function(y, y, y, y)
 	return
 	function(y, F, F) local F = y [1]
@@ -38783,22 +38783,22 @@ end
 end
 end
 
--- Ref_bit32_band
+Ref_bit32_band
 SL_Ctx.Ref_bit32_band = bit32.band
 
--- Ref_buffer_writeu8
+Ref_buffer_writeu8
 SL_Ctx.Ref_buffer_writeu8 = buffer.writeu8
 
--- Ref_buffer_readi8
+Ref_buffer_readi8
 SL_Ctx.Ref_buffer_readi8 = buffer.readi8
 
--- Ref_string_match
+Ref_string_match
 SL_Ctx.Ref_string_match = string.match
 
--- Lowkey Consider Join SL | Source Leak
--- https://discord.gg/R6vnkNQNbP
+Lowkey Consider Join SL | Source Leak
+https://discord.gg/R6vnkNQNbP
 
--- StateSave_4
+StateSave_4
 SL_Ctx.StateSave_4 = function(y, F, F)
 	return
 	function(F, f) local f = F [1]
@@ -38859,16 +38859,16 @@ end
 end
 end
 
--- Ref_coroutine_yield
+Ref_coroutine_yield
 SL_Ctx.Ref_coroutine_yield = coroutine.yield
 
--- Ref_string_gsub
+Ref_string_gsub
 SL_Ctx.Ref_string_gsub = string.gsub
 
--- Proto_z
+Proto_z
 SL_Ctx.Proto_z = {}
 
--- RC4_Keystream_3
+RC4_Keystream_3
 SL_Ctx.RC4_Keystream_3 = function(y, F, f, l) local w
 	local T, v, J, t, h, d, M, n, Z, G, p, b, c, q, W, L, _, U, s, Y, I, z, V, r, D, H, O, i, A = y [58], y.d, y [60], y.G, y [73], y.n4, y [5], y [6], y [44], y [94], y [2], y [123], y [107], y [19], y [64], y [32], y [106], y [77], y [15], y [119], y [5306], y [102], y [8], y [120], y [5841], y.V, y.O4, 15
 	local x
@@ -39978,7 +39978,7 @@ else
 end
 end
 
--- TweenTravel_10
+TweenTravel_10
 SL_Ctx.TweenTravel_10 = function(y, F, F, F)
 	return
 	function(F)
@@ -54198,10 +54198,10 @@ end
 end
 end
 
--- Ref_string_byte
+Ref_string_byte
 SL_Ctx.Ref_string_byte = string.byte
 
--- Proto_69
+Proto_69
 SL_Ctx.Proto_69 = function(y, F)
 	return
 	function(F) local f = F [1]
@@ -54274,10 +54274,10 @@ end
 end
 end
 
--- Ref_buffer_readf32
+Ref_buffer_readf32
 SL_Ctx.Ref_buffer_readf32 = buffer.readf32
 
--- Proto_1545
+Proto_1545
 SL_Ctx.Proto_1545 = function(y, y, y)
 	return
 	function(y, F, F) local F = y [1]
@@ -54289,10 +54289,10 @@ end
 end
 end
 
--- Proto_u4
+Proto_u4
 SL_Ctx.Proto_u4 = {[" "] = "*FSmi", ["|"] = "j+3)D", v = "do+T;", y = "uU#=c", ["}"] = "P?J**", ["~"] = "ao3,.", z = "1ESFn", ["{"] = "3JW5<", w = "PjV9X", x = "uM9ak"}
 
--- Proto_28
+Proto_28
 SL_Ctx.Proto_28 = function(y, y, y)
 	return
 	function(y) local F = y [1]
@@ -54305,7 +54305,7 @@ end
 end
 
 
--- RC4_Keystream_4
+RC4_Keystream_4
 SL_Ctx.RC4_Keystream_4 = function(y, F)
 	return
 	function(F, f, f) local f = F [1]
@@ -54470,16 +54470,16 @@ end
 end
 end
 
--- Ref_setfenv
+Ref_setfenv
 SL_Ctx.Ref_setfenv = setfenv
 
--- Ref_bit32_lshift
+Ref_bit32_lshift
 SL_Ctx.Ref_bit32_lshift = bit32.lshift
 
--- Ref_coroutine_wrap
+Ref_coroutine_wrap
 SL_Ctx.Ref_coroutine_wrap = coroutine.wrap
 
--- Proto_Q4
+Proto_Q4
 SL_Ctx.Proto_Q4 = function(y, F, f) local l, w, T, v, J, t, h, d, M, n, Z, G, p, b, c, q, W, L, _, U, s, Y = y:g()
 	local I, z, V, r, D, H, O, i, A, x, X, g, S, E, j, k, B, P, Q, C, u, a, o = w, T, f, F, v, J, t, h, d, M, n, Z, G, p, b, c, q, W, L, _, U, s, Y
 	while l do
@@ -54618,10 +54618,10 @@ else
 end
 end
 
--- Proto_A4
+Proto_A4
 SL_Ctx.Proto_A4 = "[ v-~]"
 
--- ESP_Eggs_3
+ESP_Eggs_3
 SL_Ctx.ESP_Eggs_3 = function(y, F, F)
 	return
 	function(F, f, f) local f = F [1]
@@ -55188,15 +55188,15 @@ end
 end
 end
 
--- Ref_string_sub
+Ref_string_sub
 SL_Ctx.Ref_string_sub = string.sub
 
--- Proto_R4
+Proto_R4
 SL_Ctx.Proto_R4 = function(y, F)
 	return y [10](F, 1, F.n)
 end
 
--- BuildUI_Canvas_2
+BuildUI_Canvas_2
 SL_Ctx.BuildUI_Canvas_2 = function(y, F, F)
 	return
 	function(F)
@@ -55249,7 +55249,7 @@ end
 end
 end
 
--- Proto_s
+Proto_s
 SL_Ctx.Proto_s = function(y, F, f, l, w, T, v, J, t, h, d, M, n, Z) if Z <= 71 then
 	if Z <= 70 then
 	local G = y [5](d, M)
@@ -55272,7 +55272,7 @@ elseif Z <= 72 then
 	end
 end
 
--- Proto_X4
+Proto_X4
 SL_Ctx.Proto_X4 = function(y, F, f, l) local w, T, v, J, t, h, d, M = y [65], y [93], y [99], 6, F, l, f
 	while true do
 	if J <= 3 then
@@ -55309,17 +55309,17 @@ end
 end
 end
 
--- This Luraph V15.1 Is Deobfuscated By SL | Source Leak; https://discord.gg/R6vnkNQNbP
+This Luraph V15.1 Is Deobfuscated By SL | Source Leak; https://discord.gg/R6vnkNQNbP
 
--- Proto_P
+Proto_P
 SL_Ctx.Proto_P = function(y, ...)
 	return(...)()
 end
 
--- Ref_typeof
+Ref_typeof
 SL_Ctx.Ref_typeof = typeof
 
--- ESP_Eggs_4
+ESP_Eggs_4
 SL_Ctx.ESP_Eggs_4 = function(y, F, F)
 	return
 	function(F, f) local f = F [1]
@@ -56235,7 +56235,7 @@ end
 end
 end
 
--- Proto_N4
+Proto_N4
 SL_Ctx.Proto_N4 = function(y, F, f, l, w, T, v, J, t) if T <= 28 then
 	if T <= 27 then
 	local h = (J - 128) * 128
@@ -56253,7 +56253,7 @@ elseif T <= 29 then
 	end
 end
 
--- Proto_S4
+Proto_S4
 SL_Ctx.Proto_S4 = function(y, F, f, l, w, T, v, J) if w <= 32 then
 	local w = y [5](f, l + 1)
 	return w < 128 and 41 or 14, l, T, w
@@ -56265,7 +56265,7 @@ else
 	end
 end
 
--- Proto_v4
+Proto_v4
 SL_Ctx.Proto_v4 = function(y, F, f, l, w, T) if l <= 26 then
 	local v = T - 128
 	local J = 128 * w + v
@@ -56278,7 +56278,7 @@ elseif l <= 27 then
 	end
 end
 
--- Proto_66
+Proto_66
 SL_Ctx.Proto_66 = function(y, y, y)
 	return
 	function(y, F, F) local F = y [1]
@@ -56290,7 +56290,7 @@ end
 end
 end
 
--- Proto_B
+Proto_B
 SL_Ctx.Proto_B = function(y, F, f, l, w, T, v, J) if T <= 101 then
 	local T
 	local t = J [5]
@@ -56305,7 +56305,7 @@ else
 	end
 end
 
--- TweenTravel_11
+TweenTravel_11
 SL_Ctx.TweenTravel_11 = function(y, F, F)
 	return
 	function(F, f, f) local f = F [1]
@@ -56766,7 +56766,7 @@ end
 end
 end
 
--- TweenTravel_12
+TweenTravel_12
 SL_Ctx.TweenTravel_12 = function(y, F, F)
 	return
 	function(F, f, f) local f = F [1]
@@ -57262,7 +57262,7 @@ end
 end
 end
 
--- Proto_b
+Proto_b
 SL_Ctx.Proto_b = function(y, F, f, l, w, T, v, J, t, h) if l <= 128 then
 	if l <= 127 then
 	return 70, J [2], f, F, w, T
@@ -57283,13 +57283,13 @@ elseif l <= 129 then
 	end
 end
 
--- Ref_string_pack
+Ref_string_pack
 SL_Ctx.Ref_string_pack = string.pack
 
--- > Lowkey Consider Join SL | Source Leak lowkey SL <
--- https://discord.gg/R6vnkNQNbP
+> Lowkey Consider Join SL | Source Leak lowkey SL <
+https://discord.gg/R6vnkNQNbP
 
--- Proto_47
+Proto_47
 SL_Ctx.Proto_47 = function(y, y, y, y)
 	return
 	function(y, F, F) local F = y [1]
@@ -57301,10 +57301,10 @@ end
 end
 end
 
--- Ref_Vector3_new
+Ref_Vector3_new
 SL_Ctx.Ref_Vector3_new = Vector3.new
 
--- Exec_Env_3
+Exec_Env_3
 SL_Ctx.Exec_Env_3 = function(y, y, y, y)
 	return
 	function(y)
@@ -57317,7 +57317,7 @@ end
 end
 end
 
--- Proto_4564
+Proto_4564
 SL_Ctx.Proto_4564 = function(y, F, F, F)
 	return
 	function(F) local f = F [1]
@@ -57390,10 +57390,10 @@ end
 end
 end
 
--- Ref_buffer_readu8
+Ref_buffer_readu8
 SL_Ctx.Ref_buffer_readu8 = buffer.readu8
 
--- Proto_13516
+Proto_13516
 SL_Ctx.Proto_13516 = function(y, y)
 	return
 	function(y) local F = y [1]
@@ -57405,7 +57405,7 @@ end
 end
 end
 
--- Proto_12001
+Proto_12001
 SL_Ctx.Proto_12001 = function(y, F, F)
 	return
 	function(F, f) local f = F [1]
@@ -57447,7 +57447,7 @@ end
 end
 end
 
--- Proto_k4
+Proto_k4
 SL_Ctx.Proto_k4 = function(y, F, f, l, w, T, v) if T <= 10 then
 	local T, J, t = F [3], F [2], F [5]
 	local h, d = T + J, J <= 0
@@ -57465,7 +57465,7 @@ else
 	end
 end
 
--- Notify_7
+Notify_7
 SL_Ctx.Notify_7 = function(y, F, F)
 	return
 	function(F, f) local f = F [1]
@@ -58192,10 +58192,10 @@ end
 end
 end
 
--- Proto_61
+Proto_61
 SL_Ctx.Proto_61 = 9.04446865E8
 
--- Proto_o
+Proto_o
 SL_Ctx.Proto_o = function(y, F, f, l, w, T, v, J, t, h) if T <= 152 then
 	local T, d, M, n = y [5](w, v + 3), (h - 128) * 2097152, (t - 128) * 128, J - 128
 	local J = 16384 * (T % 128) + (M + (n + (d + 2097152 * (T - T % 128))))
@@ -58208,7 +58208,7 @@ else
 	end
 end
 
--- Proto_6813
+Proto_6813
 SL_Ctx.Proto_6813 = function(y, y, y, y)
 	return
 	function(y, F) local F = y [1]
@@ -58226,9 +58226,9 @@ end
 end
 end
 
--- Lowkey Consider Join SL | Source Leak; This Luraph V15.1 Is Deobfuscated By SL | Source Leak; https://discord.gg/R6vnkNQNbP
+Lowkey Consider Join SL | Source Leak; This Luraph V15.1 Is Deobfuscated By SL | Source Leak; https://discord.gg/R6vnkNQNbP
 
--- Proto_104
+Proto_104
 SL_Ctx.Proto_104 = function(y, F, F, F)
 	return
 	function()
@@ -58246,13 +58246,13 @@ end
 end
 end
 
--- Ref_buffer_writestring
+Ref_buffer_writestring
 SL_Ctx.Ref_buffer_writestring = buffer.writestring
 
--- Ref_getfenv
+Ref_getfenv
 SL_Ctx.Ref_getfenv = getfenv
 
--- Proto_e
+Proto_e
 SL_Ctx.Proto_e = function(y, F, f, l, w, T, v, J, t, h, d, M, n) if d <= 138 then
 	if d <= 137 then
 	local Z = y [5](f, T)
@@ -58272,7 +58272,7 @@ elseif d <= 139 then
 	end
 end
 
--- Proto_11865
+Proto_11865
 SL_Ctx.Proto_11865 = function(y, y, y, y)
 	return
 	function(y) local F = y [1]
@@ -58288,7 +58288,7 @@ end
 end
 end
 
--- StateSave_5
+StateSave_5
 SL_Ctx.StateSave_5 = function(y, F, F)
 	return
 	function(F, f, f, f) local f = F [1]
@@ -58375,7 +58375,7 @@ end
 end
 end
 
--- Proto_p
+Proto_p
 SL_Ctx.Proto_p = function(y, F, f, l, w, T, v) if w <= 37 then
 	local J = y [5](f, l + 1)
 	if not(J < 128) then
@@ -58397,7 +58397,7 @@ else
 	end
 end
 
--- Proto_3146
+Proto_3146
 SL_Ctx.Proto_3146 = function(y, F)
 	return
 	function(F, f, f) local f = F [1]
@@ -58462,7 +58462,7 @@ end
 end
 end
 
--- Proto_6825
+Proto_6825
 SL_Ctx.Proto_6825 = function(y, y, y, y)
 	return
 	function(y) local F = y [1]
@@ -58491,7 +58491,7 @@ end
 end
 end
 
--- Proto_D4
+Proto_D4
 SL_Ctx.Proto_D4 = function(y, F, f, l, w, T, v, J, t, h, d, M) if h <= 40 then
 	local n = y [5](t, T)
 	return n < 128 and 27 or 13, T, F, n, w
@@ -58506,7 +58506,7 @@ elseif h <= 41 then
 	end
 end
 
--- ServerHop_4
+ServerHop_4
 SL_Ctx.ServerHop_4 = function(y, F)
 	return
 	function(F) local f = F [1]
@@ -58840,7 +58840,7 @@ end
 end
 end
 
--- Proto_10739
+Proto_10739
 SL_Ctx.Proto_10739 = function(y, y, y, y)
 	return
 	function(y) local F = y [1]
@@ -58862,15 +58862,15 @@ end
 end
 end
 
--- Lowkey Consider Join SL | Source Leak
+Lowkey Consider Join SL | Source Leak
 
--- Ref_buffer_tostring
+Ref_buffer_tostring
 SL_Ctx.Ref_buffer_tostring = buffer.tostring
 
--- Ref_Color3_new
+Ref_Color3_new
 SL_Ctx.Ref_Color3_new = Color3.new
 
--- Proto_M
+Proto_M
 SL_Ctx.Proto_M = function(y, F, f, l, w, T, v, J) if T <= 5 then
 	return 101, l, 1, f
 else
@@ -58881,7 +58881,7 @@ else
 	end
 end
 
--- Proto_83
+Proto_83
 SL_Ctx.Proto_83 = function(y, y, y, y)
 	return
 	function(y) local F = y [1]
@@ -58893,7 +58893,7 @@ end
 end
 end
 
--- Proto_E4
+Proto_E4
 SL_Ctx.Proto_E4 = function(y, F, f, l, w, T, v, J) if F <= 24 then
 	local t, h, d, M = y [5](l, 3 + T), 2097152 * (J - 128), (v - 128) * 128, f - 128
 	local y = t % 128 * 16384 + 2097152 * (t - t % 128) + (h + d) + M
@@ -58907,7 +58907,7 @@ elseif F <= 25 then
 	end
 end
 
--- InstantPickup_5
+InstantPickup_5
 SL_Ctx.InstantPickup_5 = function(y, F, F, F)
 	return
 	function(F, f) local f = F [1]
@@ -62204,7 +62204,7 @@ end
 end
 end
 
--- StateSave_6
+StateSave_6
 SL_Ctx.StateSave_6 = function(y, F, F)
 	return
 	function(F, f) local f = F [1]
@@ -62268,7 +62268,7 @@ end
 end
 end
 
--- Notify_8
+Notify_8
 SL_Ctx.Notify_8 = function(y, F, F, F, F)
 	return
 	function(F, f, f) local f = F [1]
@@ -62760,13 +62760,13 @@ end
 end
 end
 
--- Ref_table_create
+Ref_table_create
 SL_Ctx.Ref_table_create = table.create
 
--- Ref_buffer_readbits
+Ref_buffer_readbits
 SL_Ctx.Ref_buffer_readbits = buffer.readbits
 
--- Proto_14331
+Proto_14331
 SL_Ctx.Proto_14331 = function(y, y)
 	return
 	function()
@@ -62777,7 +62777,7 @@ end
 end
 end
 
--- Exec_Env_4
+Exec_Env_4
 SL_Ctx.Exec_Env_4 = function(y, F, F)
 	return
 	function(F)
@@ -62882,9 +62882,9 @@ end
 end
 end
 
--- This Luraph V15.1 Is Deobfuscated By SL | Source Leak -- https://discord.gg/R6vnkNQNbP
+This Luraph V15.1 Is Deobfuscated By SL | Source Leak https://discord.gg/R6vnkNQNbP
 
--- Proto_f
+Proto_f
 SL_Ctx.Proto_f = function(y, F, f, l, w, T, v, J, t, h) if T <= 40 then
 	local T = y [5](w, J + 3)
 	local d, M, n, Z = 2097152 * (f - 128), (h - 128) * 128, v - 128, T % 128 * 16384
@@ -62899,7 +62899,7 @@ else
 	end
 end
 
--- StateSave_7
+StateSave_7
 SL_Ctx.StateSave_7 = function(y, F, F)
 	return
 	function(F) local f = F [1]
@@ -63021,7 +63021,7 @@ end
 end
 end
 
--- ServerHop_5
+ServerHop_5
 SL_Ctx.ServerHop_5 = function(y, F)
 	return
 	function(F, f, f) local f = F [1]
@@ -63191,10 +63191,10 @@ end
 end
 end
 
--- Ref_buffer_writeu16
+Ref_buffer_writeu16
 SL_Ctx.Ref_buffer_writeu16 = buffer.writeu16
 
--- TweenTravel_13
+TweenTravel_13
 SL_Ctx.TweenTravel_13 = function(y, F, F, F)
 	return
 	function(F, f) local f = F [1]
@@ -64900,15 +64900,15 @@ end
 end
 end
 
--- Proto_F4
+Proto_F4
 SL_Ctx.Proto_F4 = function(y, y, F)
 	return y [6] [y [5] + F]
 end
 
--- Ref_bit32_countlz
+Ref_bit32_countlz
 SL_Ctx.Ref_bit32_countlz = bit32.countlz
 
--- Proto_T
+Proto_T
 SL_Ctx.Proto_T = function(y, F, f, l, w, T, v, J, t, h, d, M) if v <= 159 then
 	if v <= 157 then
 	T [l] = f
@@ -64940,7 +64940,7 @@ elseif v <= 160 then
 end
 end
 
--- StateSave_8
+StateSave_8
 SL_Ctx.StateSave_8 = function(y, F)
 	return
 	function(F, f, f) local f = F [1]
@@ -65006,10 +65006,10 @@ end
 end
 end
 
--- Ref_string_rep
+Ref_string_rep
 SL_Ctx.Ref_string_rep = string.rep
 
--- Proto_2598
+Proto_2598
 SL_Ctx.Proto_2598 = function(y, y, y)
 	return
 	function(y, F) local F = y [1]
@@ -65031,7 +65031,7 @@ end
 end
 end
 
--- Proto_F
+Proto_F
 SL_Ctx.Proto_F = function(y, F, f, l, w, T, v, J, t, h) if w <= 92 then
 	if w <= 91 then
 	return 156, l [4], h, J, t, F
@@ -65056,7 +65056,7 @@ end
 
 
 
--- Proto_1822
+Proto_1822
 SL_Ctx.Proto_1822 = function(y, y, y)
 	return
 	function()
@@ -65068,7 +65068,7 @@ end
 end
 end
 
--- Proto_t
+Proto_t
 SL_Ctx.Proto_t = function(y, F, f, l, w, T, v, J) if F <= 77 then
 	if F <= 75 then
 	local t = y [5](T, f + 3)
@@ -65092,10 +65092,10 @@ elseif F <= 78 then
 	end
 end
 
--- Ref_setmetatable
+Ref_setmetatable
 SL_Ctx.Ref_setmetatable = setmetatable
 
--- Proto_U4
+Proto_U4
 SL_Ctx.Proto_U4 = function(y, F, f, l, w, T, v, J) if f <= 5 then
 	local f = y [5](v, J + 2)
 	return notnot(128 <= f) and 33 or 19, l, T, f
@@ -65109,7 +65109,7 @@ else
 	end
 end
 
--- Proto_2337
+Proto_2337
 SL_Ctx.Proto_2337 = function(y, y, y)
 	return
 	function()
@@ -65128,7 +65128,7 @@ end
 end
 end
 
--- InfJump
+InfJump
 SL_Ctx.InfJump = function(y, F, F, F)
 	return
 	function(F, f, f) local f = F [1]
@@ -65431,10 +65431,10 @@ end
 end
 end
 
--- Ref_coroutine_close
+Ref_coroutine_close
 SL_Ctx.Ref_coroutine_close = coroutine.close
 
--- RC4_Keystream_5
+RC4_Keystream_5
 SL_Ctx.RC4_Keystream_5 = function(y, F, f, l, w, T, v, J, t, h) if l <= 29 then
 	local d = v % 256
 	local M = (v - d) / 256
@@ -65455,7 +65455,7 @@ elseif l <= 30 then
 	end
 end
 
--- Proto_2546
+Proto_2546
 SL_Ctx.Proto_2546 = function(y, y, y, y, y)
 	return
 	function(y, F) local F = y [1]
@@ -65482,13 +65482,13 @@ end
 end
 end
 
--- Ref_bit32_lrotate
+Ref_bit32_lrotate
 SL_Ctx.Ref_bit32_lrotate = bit32.lrotate
 
--- Ref_buffer_readu16
+Ref_buffer_readu16
 SL_Ctx.Ref_buffer_readu16 = buffer.readu16
 
--- EggPicker_Lab_5
+EggPicker_Lab_5
 SL_Ctx.EggPicker_Lab_5 = function(y, y)
 	return
 	function(y, F) local F = y [1]
@@ -65505,10 +65505,10 @@ end
 end
 end
 
--- Lowkey Consider Join SL | Source Leak
--- https://discord.gg/R6vnkNQNbP
+Lowkey Consider Join SL | Source Leak
+https://discord.gg/R6vnkNQNbP
 
--- Proto_Q
+Proto_Q
 SL_Ctx.Proto_Q = function(y, F, f, l, w, T, v, J, t) if l <= 97 then
 	if l <= 96 then
 	local h, d = 128 * (v - 128), f - 128
@@ -65529,10 +65529,10 @@ elseif l <= 98 then
 	end
 end
 
--- Ref_buffer_readi32
+Ref_buffer_readi32
 SL_Ctx.Ref_buffer_readi32 = buffer.readi32
 
--- TweenTravel_14
+TweenTravel_14
 SL_Ctx.TweenTravel_14 = function(y, F, F)
 	return
 	function(F) local f = F [1]
@@ -66172,7 +66172,7 @@ end
 end
 end
 
--- Proto_57
+Proto_57
 SL_Ctx.Proto_57 = function(y, y, y, y)
 	return
 	function(y, F, F) local F = y [1]
@@ -66184,7 +66184,7 @@ end
 end
 end
 
--- TweenTravel_15
+TweenTravel_15
 SL_Ctx.TweenTravel_15 = function(y, F)
 	return
 	function(F) local f = F [1]
@@ -67671,7 +67671,7 @@ end
 end
 end
 
--- Proto_a
+Proto_a
 SL_Ctx.Proto_a = function(y, F, f, l, w, T, v, J, t, h, d, M) if v <= 22 then
 	local n = y [5](w, d + 3)
 	local Z, G, p, b, c = (l - 128) * 2097152, (h - 128) * 128, J - 128, 16384 * (n % 128), n % 128
@@ -67691,7 +67691,7 @@ elseif v <= 23 then
 	end
 end
 
--- Proto_r
+Proto_r
 SL_Ctx.Proto_r = function(y, F, f, l, w, T, v, J, t, h, d, M, n) if l <= 123 then
 	if l <= 122 then
 	local Z = (T - 128) * 128 + (f - 128 + 16384 * n)
@@ -67710,7 +67710,7 @@ elseif l <= 124 then
 	end
 end
 
--- SpeedBoost
+SpeedBoost
 SL_Ctx.SpeedBoost = function(y, F, F)
 	return
 	function(F, f) local f = F [1]
@@ -68224,7 +68224,7 @@ end
 end
 end
 
--- Proto_i4
+Proto_i4
 SL_Ctx.Proto_i4 = function(y, ...) local F, f, l, w, T, v, J, t, h, d, M, n, Z = y:C4()
 	local G, p, b, c, q, W, L, _, U, s, Y, I = f, l, w, T, v, J, t, h, d, M, n, Z
 	while F do
@@ -68275,10 +68275,10 @@ elseif G <= 39 then
 end
 end
 
--- Ref_select
+Ref_select
 SL_Ctx.Ref_select = select
 
--- Proto_12386
+Proto_12386
 SL_Ctx.Proto_12386 = function(y, y, y)
 	return
 	function(y, F) local F = y [1]
@@ -68291,7 +68291,7 @@ end
 end
 end
 
--- Proto_9477
+Proto_9477
 SL_Ctx.Proto_9477 = function(y, F, F)
 	return
 	function(F, f, f) local f = F [1]
@@ -68338,7 +68338,7 @@ end
 end
 
 
--- Notify_9
+Notify_9
 SL_Ctx.Notify_9 = function(y, F, F)
 	return
 	function(F, f) local f = F [1]
@@ -68546,7 +68546,7 @@ end
 end
 end
 
--- TweenTravel_16
+TweenTravel_16
 SL_Ctx.TweenTravel_16 = function(y, F)
 	return
 	function(F, f, f) local f = F [1]
@@ -69020,7 +69020,7 @@ end
 end
 end
 
--- Proto_x4
+Proto_x4
 SL_Ctx.Proto_x4 = function(y, F, f, l, w, T, v, J, t, h, d) if f <= 18 then
 	local M, n, Z = h [4], h [1], h [5]
 	local G, p = M + n, n <= 0
@@ -69043,7 +69043,7 @@ elseif f <= 19 then
 	end
 end
 
--- TweenTravel_17
+TweenTravel_17
 SL_Ctx.TweenTravel_17 = function(y, F, F, F)
 	return
 	function(F, f, f) local f = F [1]
@@ -69481,10 +69481,10 @@ end
 end
 end
 
--- Ref_buffer_writef32
+Ref_buffer_writef32
 SL_Ctx.Ref_buffer_writef32 = buffer.writef32
 
--- DiscordUI
+DiscordUI
 SL_Ctx.DiscordUI = function(y, y, y)
 	return
 	function(y, y)
@@ -69494,7 +69494,7 @@ end
 end
 end
 
--- Ref_xpcall
+Ref_xpcall
 SL_Ctx.Ref_xpcall = xpcall
 
 local SL_App = {
