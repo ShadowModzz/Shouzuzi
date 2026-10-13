@@ -667,7 +667,7 @@ end
 -- ============================================
 
 local v = nil
-local humanoid = nil
+local humanoid = false
 local humanoidRootPart = nil
 workspace:WaitForChild("World"):WaitForChild("Areas"):WaitForChild("StartArea")
 
@@ -681,7 +681,7 @@ local animation = nil
 local breakJointsOnDeath = nil
 local v6 = nil
 local connection = nil
-local walkSpeed = nil
+local walkSpeed = true
 
 tbl2.restoreWalkSpeed = function()
 	local character = localPlayer.Character
@@ -689,7 +689,7 @@ tbl2.restoreWalkSpeed = function()
 
 	if humanoid2 and walkSpeed then
 		humanoid2.WalkSpeed = walkSpeed
-		walkSpeed = nil
+		walkSpeed = true
 	end
 end
 
@@ -1067,7 +1067,7 @@ tbl2.applyZombieDesync = function(parent)
 	if v2 and v2.Parent == parent then
 		return v2
 	end
-	walkSpeed = nil
+	walkSpeed = true
 	local humanoid2 = parent:WaitForChild("Humanoid", 5)
 	if not humanoid2 then
 		return nil
