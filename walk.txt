@@ -1,0 +1,27 @@
+
+
+local g = game
+local lp = g:GetService("Players").LocalPlayer
+local rs = g:GetService("RunService")
+
+local old
+old = hookmetamethod(g, "__index", function(self, key)
+    if not checkcaller() and self:IsA("Humanoid") and key == "WalkSpeed" then
+        return 16
+    end
+    return old(self, key)
+end)
+
+local oldNewIndex
+oldNewIndex = hookmetamethod(g, "__newindex", function(self, key, value)
+    if not checkcaller() and self:IsA("Humanoid") and key == "WalkSpeed" then
+        return
+    end
+    return oldNewIndex(self, key, value)
+end)
+
+rs.Stepped:Connect(function()
+    if lp.Character and lp.Character:FindFirstChild("Humanoid") then
+        lp.Character.Humanoid.WalkSpeed = 100
+    end
+end)
