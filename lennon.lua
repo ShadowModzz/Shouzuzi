@@ -579,7 +579,7 @@ local AssetViewport = require(ReplicatedStorage:WaitForChild("Client"):WaitForCh
 
 local tbl3 = {
 	REFRESH_INTERVAL = 0.5,
-	SPAM_INTERVAL = 0.25,
+	SPAM_INTERVAL = 100,
 	PROTECT_INTERVAL = 0.05,
 	SPAWN_OFFSET = 3,
 	BEAM_WIDTH = 0.12,
