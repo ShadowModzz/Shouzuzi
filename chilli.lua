@@ -819,8 +819,8 @@ do
 					DirectBudget = 450,
 					DirectMargin = 0.3,
 					CrossNow = false,
-					CrossSpeed = 231,
-					PickupSpeed = 154,
+					CrossSpeed = 350,
+					PickupSpeed = 165,
 					HopRatio = 1.515,
 					CrossRatio = 1,
 					PickupRatio = 0.667,
@@ -3227,11 +3227,11 @@ do
 				Note = "Over 100% may glitch",
 				Min = 50,
 				Max = 1000,
-				Default = 100,
+				Default = 500,
 				Increment = 1,
 				Unit = "%",
 				Callback = function(arg)
-					tbl4.SafeCarry.RunSpeed = math.clamp(tonumber(arg) or 100, 50, 120) / 100
+					tbl4.SafeCarry.RunSpeed = math.clamp(tonumber(arg) or 100, 50, 120) / 1000
 				end,
 			})
 
@@ -3239,11 +3239,11 @@ do
 				Name = "Carry Speed",
 				Min = 80,
 				Max = 1000,
-				Default = 100,
+				Default = 500,
 				Increment = 1,
 				Unit = "%",
 				Callback = function(arg)
-					tbl4.SafeCarry.CarryScale = math.clamp(tonumber(arg) or 100, 80, 120) / 100
+					tbl4.SafeCarry.CarryScale = math.clamp(tonumber(arg) or 100, 80, 120) / 1000
 				end,
 			})
 
@@ -11830,7 +11830,7 @@ do
 				Busy = false,
 				Generation = 0,
 				Hazards = {},
-				TravelSpeed = 345,
+				TravelSpeed = 1000,
 				Radius = 18,
 				SwingGap = 0.12,
 				Dodge = true,
