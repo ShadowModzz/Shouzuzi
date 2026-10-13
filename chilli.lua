@@ -819,8 +819,8 @@ do
 					DirectBudget = 450,
 					DirectMargin = 0.3,
 					CrossNow = false,
-					CrossSpeed = 350,
-					PickupSpeed = 165,
+					CrossSpeed = 231,
+					PickupSpeed = 154,
 					HopRatio = 1.515,
 					CrossRatio = 1,
 					PickupRatio = 0.667,
@@ -3214,7 +3214,7 @@ do
 					end
 
 					tbl4.SafeCarry.LineDrop = arg ~= false
-					tbl4.SafeCarry.SpeedJitter = tbl4.SafeCarry.LineDrop and 0 or 0.08
+					tbl4.SafeCarry.SpeedJitter = tbl4.SafeCarry.LineDrop and 0 or 0.05
 
 					if tbl4.StealPanelSync then
 						pcall(tbl4.StealPanelSync)
@@ -3227,8 +3227,8 @@ do
 				Note = "Over 100% may glitch",
 				Min = 50,
 				Max = 1000,
-				Default = 500,
-				Increment = 1,
+				Default = 100,
+				Increment = 0.5,
 				Unit = "%",
 				Callback = function(arg)
 					tbl4.SafeCarry.RunSpeed = math.clamp(tonumber(arg) or 100, 50, 120) / 1000
@@ -3239,8 +3239,8 @@ do
 				Name = "Carry Speed",
 				Min = 80,
 				Max = 1000,
-				Default = 500,
-				Increment = 1,
+				Default = 100,
+				Increment = 0.5,
 				Unit = "%",
 				Callback = function(arg)
 					tbl4.SafeCarry.CarryScale = math.clamp(tonumber(arg) or 100, 80, 120) / 1000
@@ -11830,7 +11830,7 @@ do
 				Busy = false,
 				Generation = 0,
 				Hazards = {},
-				TravelSpeed = 1000,
+				TravelSpeed = 250,
 				Radius = 18,
 				SwingGap = 0.12,
 				Dodge = true,
