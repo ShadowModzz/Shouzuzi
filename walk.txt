@@ -22,6 +22,6 @@ end)
 
 rs.Stepped:Connect(function()
     if lp.Character and lp.Character:FindFirstChild("Humanoid") then
-        lp.Character.Humanoid.WalkSpeed = 5000000000000000000
+        lp.Character.Humanoid.WalkSpeed = 500000
     end
 end)
