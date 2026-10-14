@@ -3411,7 +3411,7 @@ tbl2.startNewTeleguiado = function()
 			local areas = workspace.World.Areas
 			local guardAreas2 = areas:WaitForChild("GuardAreas")
 			local ground = areas:WaitForChild("Ground")
-			local n13 = 800
+			local n13 = 345
 			local character = localPlayer2.Character or localPlayer2.CharacterAdded:Wait()
 			local humanoidRootPart2 = character:WaitForChild("HumanoidRootPart")
 			local desyncOriginal, desyncOriginalState, desyncFake
