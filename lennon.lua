@@ -587,7 +587,7 @@ local tbl3 = {
 	DROPDOWN_ROWS = 4,
 	ROW_H = 28,
 	ROW_GAP = 3,
-	TWEEN_SPEED = 0,
+	TWEEN_SPEED = 350,
 	WAYPOINT = Vector3.new(210.092, 40.767, -194.085),
 	USE_GROUND_DETECTION = true,
 	GROUND_CLEARANCE = 4,
@@ -3411,7 +3411,7 @@ tbl2.startNewTeleguiado = function()
 			local areas = workspace.World.Areas
 			local guardAreas2 = areas:WaitForChild("GuardAreas")
 			local ground = areas:WaitForChild("Ground")
-			local n13 = 345
+			local n13 = 300
 			local character = localPlayer2.Character or localPlayer2.CharacterAdded:Wait()
 			local humanoidRootPart2 = character:WaitForChild("HumanoidRootPart")
 			local desyncOriginal, desyncOriginalState, desyncFake
@@ -4765,13 +4765,13 @@ tbl2.startNewTeleguiado = function()
 				if flag5 then
 					humanoidRootPart2.AssemblyLinearVelocity = Vector3.zero
 					humanoidRootPart2.AssemblyAngularVelocity = Vector3.zero
-					local v33 = fn40(Vector3.new(3427.9, 91.2, -412.4), 5000)
+					local v33 = fn40(Vector3.new(3427.9, 91.2, -412.4), 800)
 					if str2 ~= "movingBest" or not newTGRuntime2.running or localPlayer2.Character ~= character or not v33 then
 						return
 					end
-					v32 = fn40(n14, 500)
+					v32 = fn40(n14, 350)
 				else
-					v32 = fn40(n14, 5000)
+					v32 = fn40(n14, 800)
 				end
 
 				if str2 ~= "movingBest" or not v32 then
@@ -4892,7 +4892,7 @@ tbl2.startNewTeleguiado = function()
 
 				local ok, result = pcall(function()
 					if v31 then
-						fn21(v32, 500)
+						fn21(v32, 350)
 					else
 						fn33(n14, 500)
 					end
